@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
         <a href="index.html"> Home </a>
         </li>
@@ -15,26 +17,35 @@
         </li>
     </ul>
 
-  <h1>Sobre mim...</h1>  
-  <p>
-"Uma vida sem desafios, não vale a pena ser vivida."
-Uma estudante extremamente dedicada que está
-em transição de carreira para a área de
-Tecnologia, com apenas uma missão em mente:
-maximizar meus conhecimentos no ramo para ser a
-diferença.
-  </p>
-  <p>
-    Leite de capivaris, leite de mula manquis sem cabeça. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Paisis, filhis, espiritis santis.
-    Atirei o pau no gatis, per gatis num morreus. In elementis mé pra quem é amistosis quis leo. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Per aumento de cachacis, eu reclamis.
-  </p>
+  <h1 class="center">Sobre mim...</h1>  
+  <div class="container">
+      <div class="p-30">
+        <p class= justify style="font-size: 20px;">
+            "Uma vida sem desafios, não vale a pena ser vivida."
+            Uma estudante extremamente dedicada que está
+            em transição de carreira para a área de
+            Tecnologia, com apenas uma missão em mente:
+            maximizar meus conhecimentos no ramo para ser a
+            diferença.
+              </p>
+              <p class= justify>
+                Leite de capivaris, leite de mula manquis sem cabeça. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Paisis, filhis, espiritis santis.
+                Atirei o pau no gatis, per gatis num morreus. In elementis mé pra quem é amistosis quis leo. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Per aumento de cachacis, eu reclamis.
+              </p>
+      </div>
 
-  <img width="300" 
-  height="550"
-  src="assets/img/minha foto com.jpeg" 
-  alt="Foto do criador do conteúdo">
+      <div>
+        <img class="br-50" width="300" 
+        height="550"
+        src="assets/img/minha foto com.jpeg" 
+        alt="Foto do criador do conteúdo">
+      </div>         
+        
+  </div>  
 
-  <h2>Minha música preferida do momento:</h2>
+  <h2 class="center">Minha música preferida do momento:</h2>
+  <div class="container mb-50">
+  
   <iframe width="560" 
   height="315" 
   src="https://www.youtube.com/embed/Jtauh8GcxBY" 
@@ -42,5 +53,22 @@ diferença.
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen></iframe>
+  </div>
+
+  <hr>
+  <footer>
+
+    <div class="container">
+      <a href="https://web.facebook.com/JhoweKa/" target="_blank">
+        <img class="tm-social p-30" src="./assets/img/facebook.png" alt="Logo do Facebook">
+      </a>
+     
+      <a href="https://www.linkedin.com/in/karoline-toledo-1a76a2153/" target="_blank">
+        <img class="tm-social p-30" src="./assets/img/linkdln.png" alt="Logo do Linkedln">
+      </a>     
+
+    </div>
+    <p class="center">Todos os direitos reservados: Karoline Toledo &copy</p>
+  </footer>
 </body>
 </html>
